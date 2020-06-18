@@ -34,6 +34,6 @@ cacheSolve <- function(x, ...) {
           dt_matrix <- x$get()
           inverse_m <- solve(dt_matrix, ...)
           x$set_inverse(inverse_m)
-          m
+          inverse_m
         
 }
